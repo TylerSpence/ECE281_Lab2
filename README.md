@@ -22,3 +22,7 @@ Sum=A'B'C+A'BC'+ABC+AB'C'
 
 Cout=AB+BC+AC
 
+#schematic
+![alt tag] (https://raw2.github.com/TylerSpence/ECE281_Lab2/master/schematic.gif)
+Documentation:
+gamezero.com
