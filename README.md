@@ -24,9 +24,11 @@ Cout=AB+BC+AC
 
 #schematic
 ![alt tag] (https://raw2.github.com/TylerSpence/ECE281_Lab2/master/schematic.gif)
+
 Documentation:
 gamezero.com
 
 #Waveform
 ![alt tag] (https://raw2.github.com/TylerSpence/ECE281_Lab2/master/screenshotonebit.png)
+
 The waveform corresponds exactly to the truth table. 
