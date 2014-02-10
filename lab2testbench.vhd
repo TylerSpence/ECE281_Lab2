@@ -3,10 +3,10 @@
 -- Engineer: Tyler Spence
 --
 -- Create Date:   19:13:24 02/09/2014
--- Design Name:   Version 1
--- Module Name:   C:/Users/C16Tyler.Spence/Desktop/Semester 4 classes/ece 281/Lab2spence/lab2testbench.vhd
+-- Design Name:   Prelab
+-- Module Name:   lab2testbench.vhd
 -- Project Name:  Lab2spence
--- Target Device:  
+-- Target Device:  FPGA
 -- Tool versions:  
 -- Description:   
 -- 
