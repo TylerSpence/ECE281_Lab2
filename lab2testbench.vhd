@@ -1,9 +1,9 @@
 --------------------------------------------------------------------------------
--- Company: 
--- Engineer:
+-- Company: USAFA
+-- Engineer: Tyler Spence
 --
 -- Create Date:   19:13:24 02/09/2014
--- Design Name:   
+-- Design Name:   Version 1
 -- Module Name:   C:/Users/C16Tyler.Spence/Desktop/Semester 4 classes/ece 281/Lab2spence/lab2testbench.vhd
 -- Project Name:  Lab2spence
 -- Target Device:  
