@@ -31,10 +31,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity multiplexor is
     Port ( X : in  STD_LOGIC;
-           B : in  STD_LOGIC;
-           D : in  STD_LOGIC;
-           F : in  STD_LOGIC;
-           H : in  STD_LOGIC;
+           B : IN  STD_LOGIC_vector(3 downto 0);
 			  Carry : out  STD_LOGIC;
            BO : out  STD_LOGIC;
            DO : out  STD_LOGIC;
@@ -44,11 +41,8 @@ end multiplexor;
 
 architecture Behavioral of multiplexor is
 component multiplexor 
- Port   (X: in STD_LOGIC;
-         B : in STD_LOGIC;
-			D : in STD_LOGIC;
-			F : in  STD_LOGIC;
-         H : in  STD_LOGIC;
+ Port  (X: in STD_LOGIC;
+         B : IN  STD_LOGIC_vector(3 downto 0);
 			Carry : out  STD_LOGIC;
          BO : out  STD_LOGIC;
          DO : out  STD_LOGIC;
@@ -61,16 +55,16 @@ Begin
 begin
  
  if(X = '1') then
-	BO <= not B;
-	DO <= not D;
-	FO <= not F;
-	HO <= not H;
+	BO <= not B(0);
+	DO <= not B(1);
+	FO <= not B(2);
+	HO <= not B(3);
 	Carry <= '1';
  elsif(X = '0') then
-	BO <= B;
-	DO <= D;
-	FO <= F;
-	HO <= H;
+	BO <= B(0);
+	DO <= B(1);
+	FO <= B(2);
+	HO <= B(3);
 	Carry <= '0';
 
 end if;
