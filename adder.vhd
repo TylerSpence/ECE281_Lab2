@@ -1,14 +1,14 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: USAFA
+-- Engineer:  Tyler Spence
 -- 
 -- Create Date:    11:12:46 02/10/2014 
--- Design Name: 
+-- Design Name:    final
 -- Module Name:    adder - Behavioral 
--- Project Name: 
--- Target Devices: 
+-- Project Name:   single bit adder
+-- Target Devices:  fpga
 -- Tool versions: 
--- Description: 
+-- Description:  Component implementation using researched equations.
 --
 -- Dependencies: 
 --
