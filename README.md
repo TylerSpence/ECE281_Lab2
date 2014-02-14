@@ -77,3 +77,4 @@ Any over flow is viewed on the fifth light as represented by Cout.
 #Debuggining:
 I was having trouble implementing the if, then logic for the multiplexor so I consulted Captain Trimble and she assisted me by helping me to understand the concept of a process. I had to begin a process before I could do the actual for loop.
 After this I was having issues understanding the concept of what the button should acually do, so I consulted Captain Silva and he took time to explain to me exactly what the button would do in terms of the B inputs and the carry in.
+Captain Silva checked my functionality and the adder and subtractor worked, but the overflow didn't.
