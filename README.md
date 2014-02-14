@@ -3,7 +3,7 @@ ECE281_Lab2
 
 lab2
 
-#Truth table
+#Truth table for single bit adder
 
 |  A |  B  |  Cin  |  Sum  |  Cout  |
 |--:|--: |--: |--:| --:|
@@ -18,7 +18,7 @@ lab2
 
 #Minimal SOP equations
 
-Sum=A'B'C+A'BC'+ABC+AB'C'
+Sum=A'B'C+A'BC'+ABC+AB'C'=A xor B + B xor C + A xor C
 
 Cout=AB+BC+AC
 
