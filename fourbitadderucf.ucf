@@ -1,15 +1,15 @@
-NET "A" LOC = "G18"; 
-NET "C" LOC = "H18";
-NET "E" LOC = "K18";
-NET "G" LOC = "K17"; 
-NET "B" LOC = "L14";
-NET "D" LOC = "L13";
-NET "F" LOC = "N17"; 
-NET "H" LOC = "R17";
+NET "A(0)" LOC = "G18"; 
+NET "A(1)" LOC = "H18";
+NET "A(2)" LOC = "K18";
+NET "A(3)" LOC = "K17"; 
+NET "B(0)" LOC = "L14";
+NET "B(1)" LOC = "L13";
+NET "B(2)" LOC = "N17"; 
+NET "B(3)" LOC = "R17";
 NET "X" LOC = "B18";
 
-NET "O0" LOC = "J14";
-NET "O1" LOC = "J15";
-NET "O2" LOC = "K15";
-NET "O3" LOC = "K14";
+NET "O(0)" LOC = "J14";
+NET "O(1)" LOC = "J15";
+NET "O(2)" LOC = "K15";
+NET "O(3)" LOC = "K14";
 NET "Cout" LOC = "E17";
