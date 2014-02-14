@@ -1,14 +1,14 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: USAFA
+-- Engineer: Tyler Spence
 -- 
 -- Create Date:    20:17:19 02/12/2014 
--- Design Name: 
+-- Design Name:    final
 -- Module Name:    multiplexor - Behavioral 
--- Project Name: 
--- Target Devices: 
+-- Project Name:   multiplexor
+-- Target Devices: fpga
 -- Tool versions: 
--- Description: 
+-- Description:  Multiplexor component deffinitions
 --
 -- Dependencies: 
 --
