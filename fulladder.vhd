@@ -1,12 +1,12 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company:  USAFA
+-- Engineer:  Tyler Spence
 -- 
 -- Create Date:    18:56:56 02/09/2014 
--- Design Name: 
+-- Design Name:    final
 -- Module Name:    fulladder - Behavioral 
--- Project Name: 
--- Target Devices: 
+-- Project Name:   single bit adder
+-- Target Devices: fpga
 -- Tool versions: 
 -- Description: 
 --
