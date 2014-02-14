@@ -1,12 +1,12 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: USAFA
+-- Engineer: Tyler Spence
 -- 
 -- Create Date:    16:44:04 02/11/2014 
--- Design Name: 
+-- Design Name:    final
 -- Module Name:    fourbitadder - Structrual 
--- Project Name: 
--- Target Devices: 
+-- Project Name:   fourbitadder
+-- Target Devices: fpga
 -- Tool versions: 
 -- Description: 
 --
