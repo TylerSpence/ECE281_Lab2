@@ -18,17 +18,20 @@ lab2
 
 #Minimal SOP equations
 
-Sum=A'B'C+A'BC'+ABC+AB'C'=A xor B + B xor C + A xor C
+Sum=A'B'C+A'BC'+ABC+AB'C'=A xor B xor C
 
 Cout=AB+BC+AC
 
-#schematic
+#schematic of single adder
 ![alt tag] (https://raw2.github.com/TylerSpence/ECE281_Lab2/master/schematic.gif)
 
 Documentation:
 gamezero.com
 
-#Waveform
+#Waveform of single adder
 ![alt tag] (https://raw2.github.com/TylerSpence/ECE281_Lab2/master/screenshotonebit.png)
+
+Waveform of four bit adder
+![alt tag] (https://raw2.github.com/TylerSpence/ECE281_Lab2/master/waveform.png)
 
 The waveform corresponds exactly to the truth table. 
