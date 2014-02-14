@@ -30,27 +30,18 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity fourbitadder is
-    Port ( A : in  STD_LOGIC;
-           B : in  STD_LOGIC;
+    Port ( A : IN  STD_LOGIC_vector(3 downto 0);
+           B : IN  STD_LOGIC_vector(3 downto 0);
+           O : OUT STD_LOGIC_VECTOR(3 downto 0);
            Cin: in STD_LOGIC;
-           C : in  STD_LOGIC;
-           D : in  STD_LOGIC;
-           E : in  STD_LOGIC;
-           F : in  STD_LOGIC;
-           G : in  STD_LOGIC;
-           H : in  STD_LOGIC;
 			  X : in  STD_LOGIC;
-           O0 : out  STD_LOGIC;
-           O1 : out  STD_LOGIC;
-           O2 : out  STD_LOGIC;
-           O3 : out  STD_LOGIC;
            Cout : out  STD_LOGIC);
 end fourbitadder;
 
 architecture Structrual of fourbitadder is
 signal sig0,sig1,sig2,sig3,B1,D1,F1,H1 : STD_LOGIC;
 component adder 
- Port   (A: in STD_LOGIC;
+ Port   (A : in STD_LOGIC;
          B : in STD_LOGIC;
 			Cin : in STD_LOGIC;
 			Sum : out STD_LOGIC;
@@ -59,11 +50,8 @@ component adder
 			End component;
 			
 component multiplexor 
- Port   (X: in STD_LOGIC;
-         B : in STD_LOGIC;
-			D : in STD_LOGIC;
-			F : in  STD_LOGIC;
-         H : in  STD_LOGIC;
+ Port  (X: in STD_LOGIC;
+         B : IN  STD_LOGIC_vector(3 downto 0);
 			Carry : out  STD_LOGIC;
          BO : out  STD_LOGIC;
          DO : out  STD_LOGIC;
@@ -75,10 +63,10 @@ begin
 
 multiplexor_0 : multiplexor PORT MAP(
     X => X,
-    B => B, 
-	 D => D, 
-	 F => F, 
-    H => H,
+    B(0) => B(0), 
+	 B(1) => B(1), 
+	 B(2) => B(2), 
+    B(3) => B(3),
 	 Carry => sig0,
     BO => B1, 
     DO => D1, 
@@ -87,34 +75,34 @@ multiplexor_0 : multiplexor PORT MAP(
 			);
 
 adder_0 : adder PORT MAP(
-  A => A,
+  A => A(0),
   B => B1,
   Cin => sig0,
-  Sum => O0,
+  Sum => O(0),
   Cout => sig1
  );
  
 adder_1 : adder PORT MAP(
-  A => C,
+  A => A(1),
   B => D1,
   Cin => sig1,
-  Sum => O1,
+  Sum => O(1),
   Cout => sig2
  );
  
  adder_2 : adder PORT MAP(
-  A => E,
+  A => A(2),
   B => F1,
   Cin => sig2,
-  Sum => O2,
+  Sum => O(2),
   Cout => sig3
  );
  
  adder_3 : adder PORT MAP(
-  A => G,
+  A => A(3),
   B => H1,
   Cin => sig3,
-  Sum => O3,
+  Sum => O(3),
   Cout => Cout
  );
  
