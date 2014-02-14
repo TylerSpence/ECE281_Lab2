@@ -39,6 +39,9 @@ gamezero.com
 
 The waveform corresponds exactly to the truth table. 
 
+#Physical setup
+![alt tag] (https://raw2.github.com/TylerSpence/ECE281_Lab2/master/setup.jpg)
+
 #Walkthrough
 First, I created the single bit adder using behavioral coding, then I re made it using component declarations, and from this began building the four bit adder.
 The four bit adder was set up by assigning signals to the carry outs of the four individual adders that made it up
